@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeTemplates version="3.0">
+  <CodeTemplate version="2.0">
+    <Header>
+      <_Group>C#</_Group>
+      <Version />
+      <MimeType>text/x-csharp</MimeType>
+      <Shortcut>UNITY_EDITOR</Shortcut>
+      <_Description>Template for Unity</_Description>
+      <TemplateType>Unknown</TemplateType>
+    </Header>
+    <Variables />
+    <Code><![CDATA[#if UNITY_EDITOR
+	$selected$$end$
+#elif UNITY_ANDROID
+	
+#elif UNITY_IPHONE
+	
+#endif]]></Code>
+  </CodeTemplate>
+</CodeTemplates>
